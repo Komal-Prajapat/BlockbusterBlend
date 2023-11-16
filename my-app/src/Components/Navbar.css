@@ -1,0 +1,19 @@
+.logo{
+  color: yellow;
+  font-family: cursive;
+  margin-right: 300px;
+}
+.nav-item {
+font-size: large;
+margin-left: 50px;
+color: white;
+
+}
+.nav-item:hover{
+    background: yellow;
+    color: black;
+    border-radius: 2px;
+}
+.logo:hover{
+color: white;    
+}
