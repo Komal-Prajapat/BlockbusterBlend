@@ -45,6 +45,7 @@ function MovieSlider(props) {
 <Slider {...settings}>
      {/* ********** slide first image 1 ******* */}
 <div className="home__sliderItem sliderBox">
+
 <a href='./Iframe.jsx'>
       <img
       src="https://tse1.mm.bing.net/th?id=OIP.MaUFSYTWpuphKF-s_5h9FgHaKf&pid=Api&P=0&h=180" className='imageMovieImage'alt="Movie 1" />

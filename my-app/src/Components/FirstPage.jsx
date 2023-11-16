@@ -2,10 +2,7 @@ import React from 'react';
 import './Navbar.css'
 function FirstPage() {
   const container = {
-    backgroundImage: 'url("https://tse3.mm.bing.net/th?id=OIP.ybCBMVf-GzM74IqGEITAbQAAAA&pid=Api&P=0&h=180")',
-    width: '100%',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
+   
     height: '400px',
     display: 'flex',
     justifyContent: 'center',
@@ -27,7 +24,8 @@ function FirstPage() {
   return (
     <div>
       <>
-        <div className="container con" style={container} >
+      <div className="con">
+        <div className="container " style={container} >
           <h1 style={heading}>FILMLANE </h1>
           <h1>
             Unlimited <span style={heading}>Movie</span>, TV Shows, & More.
@@ -37,6 +35,7 @@ function FirstPage() {
           <button className='btn btn-lg' style={buttonStyle}>
             Watch now
           </button>
+        </div>
         </div>
       </>
     </div>
